@@ -13,7 +13,7 @@ $localgovt =$_POST["localgovt"]; //"I need a website";
 $state = $_POST["state"];
 
 // $conn = new mysqli ('localhost', 'root', '', 'techserv');
-$conn = new mysqli ('localhost:3306', 'mujaware_muja', 'muja!1025?', 'mujaware_mujaware');
+$conn = new mysqli ();
 //check connection
 if ($conn->connect_error) {
     die("Connection failed: ".$conn->connect_error);

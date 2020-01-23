@@ -9,7 +9,7 @@ $business =$_POST["business"];// "Sinatech";
 $comments =$_POST["comments"]; //"I need a website";
 $project = $_POST["project"];
 
-$conn = new mysqli ('localhost:3306', 'mujaware_muja', 'muja!1025?', 'mujaware_mujaware');
+$conn = new mysqli ();
 //check connection
 if ($conn->connect_error) {
     die("Connection failed: ".$conn->connect_error);

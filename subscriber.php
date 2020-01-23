@@ -2,8 +2,8 @@
 header("Content-Type: application/json; charset=UTF-8");
 
 // $conn = new mysqli ('localhost', 'root', '', 'techserv');
-$conn = new mysqli ('localhost:3306', 'mujaware_muja', 'muja!1025?', 'mujaware_mujaware');
-//$link = mysqli_connect("localhost:3306", "ebizebiz", "Pqd72H0q7h", "ebizebiz_wp292");
+$conn = new mysqli ('');
+//$link = mysqli_connect("localhost:3306", "ebizebiz", "", ");
 
 // Check connection
 if($link === false){
